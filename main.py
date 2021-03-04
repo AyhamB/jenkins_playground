@@ -1,9 +1,14 @@
 import sys
+import time
 
 
 def main(argv):
 
-    print("Hello World")
+    print("Going to sleep")
+    # Wait for 10 seconds
+    time.sleep(10)
+
+    print("waking up")
 
 
 # -----------------< Main Program>---------------------------------------
